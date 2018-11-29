@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class movies {
 
 	private int id_movie;
@@ -5,19 +7,28 @@ public class movies {
 	private double duration;
 	
 	public void set_id_movie() {
-	
+	    	private static Scanner input = new Scanner(System.in);
+		System.out.print("Digite o número de identificação do filme: ");
+		int scan = input.nextInt();
+		id_movie = scan;
 	}
 	
 	public void set_title() {
-	
+	    	private static Scanner input = new Scanner(System.in);
+		System.out.print("Digite o título do filme: ");
+		String scan = input.nextLine();
+		title = scan;
 	}
 	
 	public void set_duration() {
-	
+		private static Scanner input = new Scanner(System.in);
+		System.out.print("Digite a duração do filme: ");
+		double scan = input.nextDouble();
+		duration = scan;
 	}
 	
 	public int get_id_movie() {
-	
+		
 	}
 	
 	public string get_title() {
