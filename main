@@ -27,11 +27,11 @@ public class movies {
 		duration = scan;
 	}
 	
-	public int get_id_movie() {
-		
+	public int get_id_movie(int id_movie) {
+		return id_movie;
 	}
 	
-	public string get_title() {
+	public string get_title(string title) {
 	
 	}
 	
